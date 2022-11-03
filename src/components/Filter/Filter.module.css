@@ -1,0 +1,17 @@
+.input-group {
+  font-family: cursive;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.input {
+  height: 20px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid rgb(36 104 70);
+  border-radius: 4px;
+}

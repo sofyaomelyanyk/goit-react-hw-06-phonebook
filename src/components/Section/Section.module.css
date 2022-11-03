@@ -1,0 +1,23 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.27);
+
+  background: rgb(219, 231, 225);
+}
+
+.title {
+  font-family: cursive;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}

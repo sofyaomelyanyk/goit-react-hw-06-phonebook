@@ -1,0 +1,33 @@
+.contact-list {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-item {
+  font-family: cursive;
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  font-family: cursive;
+  font-weight: 700;
+
+  color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(36, 104, 70);
+  background: rgb(44, 142, 91);
+  box-shadow: 0 -3px rgb(36, 104, 70) inset;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}

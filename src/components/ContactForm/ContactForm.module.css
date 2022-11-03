@@ -1,0 +1,44 @@
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  height: 20px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid rgb(36 104 70);
+  border-radius: 4px;
+}
+
+.button {
+  margin: 0 auto;
+
+  font-family: cursive;
+  font-weight: 700;
+
+  color: white;
+  border-radius: 50%;
+  border: 1px solid rgb(36, 104, 70);
+  background: rgb(122, 183, 151);
+  box-shadow: 0 -3px rgb(36, 104, 70) inset;
+  cursor: pointer;
+  transform: scale(1)
+}
+
+.button:hover {
+   transform: scale(1.05);
+  
+}
