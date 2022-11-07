@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
-import { addContact, deleteContact } from 'store/contacts/contactsSlice';
-import { setFilter } from 'store/filter/filterSlice';
+import { addContact, deleteContact } from 'redux/contacts/contactsSlice';
+import { setFilter } from 'redux/filter/filterSlice';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 
